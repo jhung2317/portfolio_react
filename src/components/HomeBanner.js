@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 function HomeBanner() {
   return (
     <div className='container'>
-      <video src="./videos/video-2.mp4" autoPlay loop muted/>
+      <video src="./videos/video-1.mp4" autoPlay loop muted/>
       <h1> Hi </h1>
       <div className='typewriter'>
         <p> Hello, I am a </p>
