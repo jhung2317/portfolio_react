@@ -6,14 +6,15 @@ import Typewriter from 'typewriter-effect';
 
 function HomeBanner() {
   return (
-    <div className='container'>
+    <div className='container' id='banner'>
       <video src="./videos/video-1.mp4" autoPlay loop muted/>
-      <h1> Hi </h1>
+      <h1> Hi, I am Jason </h1>
+
       <div className='typewriter'>
-        <p> Hello, I am a </p>
+        <p> I am a </p>
         <Typewriter
           options={{
-          strings: ['Mechanical Engineer', 'Programmer','Snowboarder','Foodie' ],
+          strings: ['Mechanical Engineer', 'Programmer','Snowboarder','Foodie', 'Coffee Addict' ],
           autoStart: true,
           loop: true,
         }}

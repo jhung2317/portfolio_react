@@ -61,11 +61,12 @@
   transition: 250ms;
 }
 
-@media screen and (max-width: 550px) {
-  .btn-mobile {
+@media screen and (max-width: 565px) {
+  /* .btn-mobile {
     display: block;
-  }
+  } */
   .btn {
     width: 100%;
+    display: block;
   }
 }

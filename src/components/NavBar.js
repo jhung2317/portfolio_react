@@ -1,21 +1,23 @@
 import React, {useState, useEffect} from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
+
 import { Button } from './Button';
 import "../css/NavBar.css"
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 function NavBar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  const [smallScreen, setSmallScreen] = useState(true);
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
 
   const showButton = () => {
     if(window.innerWidth <= 860) {
-      setButton(false);
+      setSmallScreen(false);
     } else {
-      setButton(true);
+      setSmallScreen(true);
     }
   }
 
@@ -40,28 +42,32 @@ function NavBar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <AnchorLink href='#banner'><a className='nav-links' onClick={closeMobileMenu}>
                 Home
-              </Link>
+              </a></AnchorLink>
             </li>
             <li className='nav-item'>
-              <Link to='/project' className='nav-links' onClick={closeMobileMenu}>
-                Project
-              </Link>
+              <AnchorLink href='#projects'><a className='nav-links' onClick={closeMobileMenu}>
+                Projects
+              </a></AnchorLink>
             </li>
             <li className='nav-item'>
-              <Link to='/skills' className='nav-links' onClick={closeMobileMenu}>
+            <AnchorLink href='#tech'><a className='nav-links' onClick={closeMobileMenu}>
                 Tech Skills
-              </Link>
+              </a></AnchorLink>
             </li>
             <li className='nav-item'>
               <Link to='/feedback' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Feedback
               </Link>
+              <AnchorLink href='#feedback'><a className='nav-links-mobile' onClick={closeMobileMenu}>
+                Feedback2
+              </a></AnchorLink>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Feedback</Button>}
+          {smallScreen && <AnchorLink href='#tech'><Button buttonStyle='btn--outline'>Feedback</Button></AnchorLink>}
         </div>
+        
       </nav>
     </>
   )

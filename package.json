@@ -9,8 +9,10 @@
     "gh-pages": "^5.0.0",
     "history": "^5.3.0",
     "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
@@ -40,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "netlify-cli": "^15.9.0"
   }
 }
