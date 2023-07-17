@@ -3,6 +3,7 @@ import '../App.css'
 import { Button } from './Button'
 import '../css/HomeBanner.css'
 import Typewriter from 'typewriter-effect';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function HomeBanner() {
   return (
@@ -20,25 +21,16 @@ function HomeBanner() {
         }}
       /></div>
       <div className='home-btns'>
+      <AnchorLink href='#projects'>
         <Button 
-          className='btns'
+          className='btn'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          path='https://www.linkedin.com/in/jasonhung2317/'>
-            My Linkedin
+          type='submit'
+          >
+            Start!
         </Button>
-        <Button 
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'>
-            Get Started 2 <i className='far fa-play-circle' />
-        </Button>
-        <Button 
-          className='btns'
-          buttonStyle='btn--darkgreen'
-          buttonSize='btn--large'>
-            Get Started 3 
-        </Button>
+      </AnchorLink >
       
       </div>
     </div>

@@ -1,8 +1,6 @@
 .tech__container {
   display: flex;
   flex-flow: column;
-  max-width: 1120px;
-  height: 1000px;
   width: 100%;
   padding-top: 50px;
   align-items: center;
@@ -11,7 +9,7 @@
 
 .tech__title {
  color: white;
- padding-bottom: 30px;
+ padding-bottom: 50px;
 
 }
 
@@ -25,6 +23,50 @@
   width: 80%;
 }
 
-.skill__item {
+.skill__block {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
 
+.skill__container:hover {
+  background-color: rgb(146, 153, 163);
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .25s;
+}
+
+.skill__item {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.skill__icon {
+  column-gap: 2rem;
+  display: flex;    
+  block-size: auto;
+  width: 5rem;
+}
+
+.name { 
+  text-align: center;
+
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 860px) {
+  .skill__block {
+    position: relative;
+    flex-direction: column;
+  }
 }

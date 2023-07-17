@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from './Button'
 import '../css/Footer.css'
 import { Link } from 'react-router-dom'
 
@@ -10,7 +9,7 @@ function Footer() {
         <div class='social-icons'>
           <Link
             class='social-icon'
-            to='/'
+            to='https://www.facebook.com/chiman.hung.7/?locale=en_GB'
             target='_blank'
             aria-label='Facebook'
           >
@@ -27,7 +26,7 @@ function Footer() {
           
           <Link
             class='social-icon'
-            to='/'
+            to='https://github.com/jhung2317'
             target='_blank'
             aria-label='github'
           >

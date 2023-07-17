@@ -1,10 +1,11 @@
 .projects {
+
   padding: 4rem;
-  padding-top: 80px;
   background: #fff;
 }
 
 h1 {
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -67,7 +68,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #2a8243;
   box-sizing: border-box;
 }
 
@@ -94,10 +95,19 @@ h1 {
   padding: 20px 30px 30px;
 }
 
-.projects__item__text {
-  color: #252e48;
-  font-size: 18px;
+.projects__item__title {
+  color: #2f603d;
+  font-size: 24px;
   line-height: 24px;
+  text-shadow: none;
+}
+
+.projects__item__description {
+  margin-top: 10px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 26px;
+  text-shadow: none;
 }
 
 @media only screen and (min-width: 1200px) {

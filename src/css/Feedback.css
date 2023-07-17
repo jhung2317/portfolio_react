@@ -6,6 +6,7 @@
 
 h1 {
   padding-top: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -25,7 +26,18 @@ h1 {
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
+
 }
+.user_name {
+  display: flex;
+  padding: 0.2em;
+  line-height: inherit;
+  flex-flow: column;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .user_email_container {
   display: flex;
   padding: 0.2em;
@@ -33,6 +45,16 @@ h1 {
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
+
+}
+.user_email {
+  display: flex;
+  padding: 0.2em;
+  flex-flow: column;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1em;
 }
 
 .msg_container {
@@ -42,6 +64,10 @@ h1 {
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
+}
+.input{
+  padding-left: 0.5em;
+  line-height: 3em;
 }
 
 .btn_container {

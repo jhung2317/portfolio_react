@@ -31,7 +31,7 @@ function Feedback() {
     <div className='form' id='feedback'>
       <h1>Feedback</h1>
       <div className="form_container">
-      <form ref={form} onSubmit={sendEmail} className="form__button">
+      <form ref={form} onSubmit={sendEmail} >
         <div className="user_name_container">
           <label htmlFor="user_name" className="user_name">Name:</label>
           <input
@@ -57,7 +57,7 @@ function Feedback() {
           <textarea
             name="message"
             id="message"
-            className="message"
+            className="input"
             placeholder="Give me comments to improve!"
             required
           ></textarea>
@@ -76,6 +76,8 @@ function Feedback() {
         </div>
       </form>
       </div>
+
+      
     </div>
   )
 }

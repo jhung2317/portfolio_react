@@ -1,17 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "../css/SkillIttem.css"
+import "../css/Tech.css"
 
-function SkillItem(props) {
+function SkillItem({title, icon, description}) {
   return (
-    <div className='skills_item'>
-      <div className='skills_icon'>
-        icon
-      </div>
-      <h1 className='skills_name'>
-        title
+    <div className='skill__item'>
+        {icon}
+      <h1 className='skill__name'>
+        {title}
       </h1>
-      <p>description</p>
+      <p>{description}</p>
   </div>
   
   )
