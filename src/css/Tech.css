@@ -1,0 +1,30 @@
+.tech__container {
+  display: flex;
+  flex-flow: column;
+  max-width: 1120px;
+  height: 1000px;
+  width: 100%;
+  padding-top: 50px;
+  align-items: center;
+  background-color: transparent;
+}
+
+.tech__title {
+ color: white;
+ padding-bottom: 30px;
+
+}
+
+.skill__container {
+  background-color: rgb(203 213 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  border-radius: 0.75rem;
+  width: 80%;
+}
+
+.skill__item {
+
+}

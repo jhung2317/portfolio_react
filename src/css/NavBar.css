@@ -2,6 +2,11 @@ a {
   text-decoration:none;
 }
 
+#banner {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 80px;

@@ -1,0 +1,62 @@
+.form {
+
+  padding: 4rem;
+  background: #fff;
+}
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.form_container {
+  display: flex;
+  flex-flow: column;
+  
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.user_name_container {
+  display: flex;
+  padding: 0.2em;
+  flex-flow: column;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+.user_email_container {
+  display: flex;
+  padding: 0.2em;
+  flex-flow: column;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.msg_container {
+  display: flex;
+  padding: 0.2em;
+  flex-flow: column;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+.sent__msg {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}

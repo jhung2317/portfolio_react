@@ -57,15 +57,13 @@ function NavBar() {
               </a></AnchorLink>
             </li>
             <li className='nav-item'>
-              <Link to='/feedback' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Feedback
-              </Link>
+
               <AnchorLink href='#feedback'><a className='nav-links-mobile' onClick={closeMobileMenu}>
-                Feedback2
+                Feedback
               </a></AnchorLink>
             </li>
           </ul>
-          {smallScreen && <AnchorLink href='#tech'><Button buttonStyle='btn--outline'>Feedback</Button></AnchorLink>}
+          {smallScreen && <AnchorLink href='#feedback'><Button buttonStyle='btn--outline'>Feedback</Button></AnchorLink>}
         </div>
         
       </nav>

@@ -23,8 +23,9 @@ function HomeBanner() {
         <Button 
           className='btns'
           buttonStyle='btn--outline'
-          buttonSize='btn--large'>
-            Get Started
+          buttonSize='btn--large'
+          path='https://www.linkedin.com/in/jasonhung2317/'>
+            My Linkedin
         </Button>
         <Button 
           className='btns'

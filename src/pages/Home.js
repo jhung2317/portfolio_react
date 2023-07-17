@@ -3,18 +3,19 @@ import React from 'react'
 import HomeBanner from '../components/HomeBanner'
 import Cards from '../components/Cards';
 import Footer from '../components/Footer';
-import Projects from './Projects';
-import Tech from './Tech';
-import Feedback from './Feedback';
+import Tech from '../components/Tech';
+import Feedback from '../components/Feedback';
+
 
 function Home() {
   return (
     <>
       <HomeBanner/>
       <Cards />
-      <Projects />
-      <Tech />
+      <Tech/>
       <Feedback/>
+
+
       <Footer/>
     </>
   )

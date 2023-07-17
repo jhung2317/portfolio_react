@@ -39,6 +39,12 @@
   border: 1px solid #153924;
 }
 
+.btn--submit {
+  background-color: #ffffff;
+  color: #242424;
+  border: 1px solid #242424;
+}
+
 .btn--darkgreen:hover {
   transition: all 0.3s ease-out;
   background: rgb(141, 21, 21);
@@ -59,6 +65,14 @@
   background: #fff;
   color: #242424;
   transition: 250ms;
+}
+
+.btn--submit:hover {
+  transition: all 0.3s ease-out;
+  color: #fff;
+  background: #242424;
+  transition: 250ms;
+
 }
 
 @media screen and (max-width: 565px) {

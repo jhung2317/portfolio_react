@@ -1,0 +1,17 @@
+.skills_item {
+  align-items: center;
+  --tw-bg-opacity: 0.5;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity)); 
+
+}
+
+.skills_icon { 
+  max-width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+}
+
+.skills_name {
+
+}

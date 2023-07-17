@@ -3,9 +3,9 @@ import './App.css';
 import NavBar from './components/NavBar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Tech from './pages/Tech';
-import Feedback from './pages/Feedback';
-import Projects from './pages/Projects';
+import Tech from './components/Tech';
+import Feedback from './components/Feedback';
+
 
 function App() {
 
