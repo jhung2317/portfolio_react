@@ -3,7 +3,7 @@ import ExpoLogo from '../assets/image/expo-go-app-logo.png'
 import InsomniaLogo from '../assets/image/insomnia-logo.png'
 import InventorLogo from '../assets/image/insomnia-logo.png'
 
-export default [
+const SkillsList = [
 
         /* Front-End */
     {
@@ -149,3 +149,5 @@ export default [
           </div>
   },
 ]
+
+export default SkillsList;

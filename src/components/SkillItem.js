@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import "../css/Tech.css"
 
 function SkillItem({title, icon, description}) {
@@ -10,8 +9,7 @@ function SkillItem({title, icon, description}) {
         {title}
       </h1>
       <p>{description}</p>
-  </div>
-  
+    </div>
   )
 }
 
