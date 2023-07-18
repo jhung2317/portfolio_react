@@ -1,7 +1,7 @@
 import AutoCADlogo from '../assets/image/autoCAD-icon.png'
 import ExpoLogo from '../assets/image/expo-go-app-logo.png'
 import InsomniaLogo from '../assets/image/insomnia-logo.png'
-import InventorLogo from '../assets/image/insomnia-logo.png'
+import InventorLogo from '../assets/image/inventor-icon.png'
 
 const SkillsList = [
 
