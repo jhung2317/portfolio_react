@@ -15,7 +15,7 @@ function HomeBanner() {
         <p> I am a </p>
         <Typewriter
           options={{
-          strings: ['Mechanical Engineer', 'Programmer','Snowboarder','Foodie', 'Coffee Addict' ],
+          strings: ['Mechanical Engineer', 'Web Developer','Snowboarder','Foodie', 'Coffee Addict' ],
           autoStart: true,
           loop: true,
         }}
