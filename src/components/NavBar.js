@@ -42,25 +42,25 @@ function NavBar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-            <AnchorLink href='#banner'><a className='nav-links' onClick={closeMobileMenu}>
+            <AnchorLink href='#banner' className='nav-links' onClick={closeMobileMenu}>
                 Home
-              </a></AnchorLink>
+            </AnchorLink>
             </li>
             <li className='nav-item'>
-              <AnchorLink href='#projects' className='nav-links' onClick={closeMobileMenu}>
+            <AnchorLink href='#projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
-              </AnchorLink>
+            </AnchorLink>
             </li>
             <li className='nav-item'>
-            <AnchorLink href='#tech'><a className='nav-links' onClick={closeMobileMenu}>
+            <AnchorLink href='#tech' className='nav-links' onClick={closeMobileMenu}>
                 Tech Skills
-              </a></AnchorLink>
+            </AnchorLink>
             </li>
             <li className='nav-item'>
 
-              <AnchorLink href='#feedback'><a className='nav-links-mobile' onClick={closeMobileMenu}>
+              <AnchorLink href='#feedback' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Feedback
-              </a></AnchorLink>
+              </AnchorLink>
             </li>
           </ul>
           {smallScreen && <AnchorLink href='#feedback'><Button buttonStyle='btn--outline'>Feedback</Button></AnchorLink>}
