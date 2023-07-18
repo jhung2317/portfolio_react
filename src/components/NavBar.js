@@ -47,9 +47,9 @@ function NavBar() {
               </a></AnchorLink>
             </li>
             <li className='nav-item'>
-              <AnchorLink href='#projects'><a className='nav-links' onClick={closeMobileMenu}>
+              <AnchorLink href='#projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
-              </a></AnchorLink>
+              </AnchorLink>
             </li>
             <li className='nav-item'>
             <AnchorLink href='#tech'><a className='nav-links' onClick={closeMobileMenu}>

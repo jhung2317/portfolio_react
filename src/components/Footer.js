@@ -10,7 +10,7 @@ function Footer() {
           <Link
             class='social-icon'
             to='https://www.facebook.com/chiman.hung.7/?locale=en_GB'
-            target='_blank'
+            target="_blank" rel="noopener noreferrer"
             aria-label='Facebook'
           >
             <i class='fab fa-facebook-f' />
@@ -18,7 +18,7 @@ function Footer() {
           <Link
             class='social-icon'
             to='/'
-            target='_blank'
+            target="_blank" rel="noopener noreferrer"
             aria-label='Instagram'
           >
             <i class='fab fa-instagram' />
@@ -27,7 +27,7 @@ function Footer() {
           <Link
             class='social-icon'
             to='https://github.com/jhung2317'
-            target='_blank'
+            target="_blank" rel="noopener noreferrer"
             aria-label='github'
           >
             <i class='fab fa-github' />
@@ -35,7 +35,7 @@ function Footer() {
           <Link
             class='social-icon'
             to='https://www.linkedin.com/in/jasonhung2317/'
-            target='_blank'
+            target="_blank" rel="noopener noreferrer"
             aria-label='LinkedIn'
           >
             <i class='fab fa-linkedin' />
@@ -44,7 +44,7 @@ function Footer() {
 
         <small class='website-rights'>© Jason Hung {new Date().getFullYear()}. All rights reserved.</small><br/>
         <small className="footer-text">
-        Skills icons provided by <a href='https://devicon.dev/' target='_blank' >Devicon</a> Copyright © 2015 Konpa
+        Skills icons provided by <a href='https://devicon.dev/' target="_blank" rel="noopener noreferrer" >Devicon</a> Copyright © 2015 Konpa
         </small>
 
       </div>
